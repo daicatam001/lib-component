@@ -1,0 +1,13 @@
+:host {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+:host ::ng-deep input {
+  padding-left: 30px;
+}
